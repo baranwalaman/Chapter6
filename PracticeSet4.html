@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        ul{
+            padding: 20px;
+            justify-content: light;
+        }
+        header{
+            background-color: black;
+            color: white;
+        }
+        li{
+            display: inline;
+            padding: 10px;
+        }
+        .box1{
+            width: 40px;
+            height: 40px;
+        }
+        .box2{
+            width: 40px;
+            height: 40px;
+        }
+        .container{
+            display: flex;
+            justify-content:space-around;
+            max-width: auto;
+            margin: 30px;
+        }
+
+        .img{
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            border: 5px solid rgb(237, 114, 114);
+        }
+        .content{
+            background-image: url(https://img.freepik.com/free-vector/hand-painted-watercolor-pastel-sky-background_23-2148902771.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            height: 30vh;
+        }
+        nav{
+            padding: 25px 15px;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        body{
+            background-color: #414141;
+        }
+        .nav_img{
+            border-radius: 10%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <img class="nav_img" src="./img.jpeg" width="30px" alt=""></li>
+            <ul>
+                <li>Home</li>
+                <li>Contact</li>
+                <li>About</li>
+            </ul>
+        </nav>
+    </header>
+    <div class="content"></div>
+    <div class="container">
+        <img class="img" src="./img.jpeg" alt="" >
+        <img class="img" src="./img.jpeg" alt="" >
+        <img class="img" src="./img.jpeg" alt="" >
+    </div>
+</body>
+</html>
